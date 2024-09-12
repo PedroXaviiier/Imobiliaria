@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Imobiliaria.Web.Favorito>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DataAdicionado)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cliente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Imovel)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataAdicionado)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.Cpf)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Imovel.Endereco)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.FavoritoId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.FavoritoId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.FavoritoId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

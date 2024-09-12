@@ -16,13 +16,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Docs", "5 - Docs", "{CF
 		..\..\README.md = ..\..\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imobiliaria.Web", "Imobiliaria.Web\Imobiliaria.Web.csproj", "{E3045505-B8C2-49AD-9F81-9D54909C5FAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imobiliaria.Web", "Imobiliaria.Web\Imobiliaria.Web.csproj", "{E3045505-B8C2-49AD-9F81-9D54909C5FAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imobiliaria.Dominio", "Imobiliaria.Dominio\Imobiliaria.Dominio.csproj", "{1B533070-C243-49D0-85C6-C28EEB7A4759}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imobiliaria.Dominio", "Imobiliaria.Dominio\Imobiliaria.Dominio.csproj", "{1B533070-C243-49D0-85C6-C28EEB7A4759}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imobiliaria.DAO", "Imobiliaria.DAO\Imobiliaria.DAO.csproj", "{B0493B79-4813-4D5D-A552-0AB2151ADBDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imobiliaria.DAO", "Imobiliaria.DAO\Imobiliaria.DAO.csproj", "{B0493B79-4813-4D5D-A552-0AB2151ADBDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imobiliaria.Testes", "Imobiliaria.Testes\Imobiliaria.Testes.csproj", "{6F325CEE-03EA-42DA-AB96-6B47D96B4BAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Imobiliaria.Testes", "Imobiliaria.Testes\Imobiliaria.Testes.csproj", "{6F325CEE-03EA-42DA-AB96-6B47D96B4BAA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{6A46DDBC-FBE6-4FCB-9E37-E62569AF914D}"
 	ProjectSection(SolutionItems) = preProject
